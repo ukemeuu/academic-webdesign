@@ -57,6 +57,16 @@ nav img {
 .nav-links ul li:hover::after {
     width: 100%;
 }
+.section-title::after {
+    content: "";
+    width: 80px;
+    height: 5px;
+    display: block;
+    margin: 0px auto 0;
+    border-radius: 8px;
+    background: #f44336;
+
+}
 
 /* textbox styling */
 .text-box {
@@ -149,6 +159,11 @@ nav .fa{
     .cta h1{
         font-size: 24px;
     }
+    .contact-section .contact-form {
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
 }
 
 .services{
@@ -167,6 +182,8 @@ p{
     font-weight: 22px;
     line-height: 22px;
     padding: 10px;
+    margin: 5px;
+
 
 }
 
@@ -443,7 +460,7 @@ footer h4{
     margin-top: 20px;
     font-weight: 600;
 }
-.icons .fa{
+.icons .fa-brands{
     color: #f44336;
     margin: 0 13px;
     cursor: pointer;
